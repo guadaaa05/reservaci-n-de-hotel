@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Reservation Request</h1>
+    </header>
+    <form action="" class="general">
+
+        <fieldset class="caja1">
+            <legend>General information</legend>
+        <label for="">Arrival Date:</label>
+        <input type="datetime-local" name="" id="">
+        <br>
+        <label for="">Nights:</label>
+        <input type="number" name="" id="">
+        <br>
+        <label for="">Adults:</label>
+        <select name="" id="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="+">+</option>
+        </select>
+        <br>
+        <label for="">Children:</label>
+        <select name="" id="">
+            <option value="-">-</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="+">+</option>
+        </select>
+    </fieldset>
+
+    <fieldset class="caja2">
+        <legend>Preferences</legend>
+        <label for="">Room Type:</label>
+        <input type="radio" name="room" id="Standart" value="Standart">Standart
+        <input type="radio" name="room" id="Business" value="Business">Business
+        <input type="radio" name="room" id="Suite" value="Suite">Suite
+        <br>
+        <label for="">Bed Type:</label>
+        <input type="radio" name="Bed" id="King" value="King">King
+        <input type="radio" name="Bed" id="Double" value="Double">Double Double
+        <br>
+        <input type="checkbox" name="Smoking" id="Smoking">Smoking
+    </fieldset>
+
+    <fieldset class="caja3">
+        <legend>Contact information</legend>
+        <label for="">Name:</label>
+        <input type="text" name="" id="">
+        <br>
+        <label for="">E-mail:</label>
+        <input type="email" name="E-mail" id="E-mail">
+        <br>
+        <label for="">Phone:</label>
+        <input type="tel" name="Phone" id="Phone">
+
+    </fieldset>
+    </form>
+</body>
+</html>

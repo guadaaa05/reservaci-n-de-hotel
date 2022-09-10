@@ -1,0 +1,13 @@
+body{
+    background: #96d3da;  
+}
+
+h1{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    color: #195D87;
+}
+
+fieldset{
+    color: #26294d;
+}
